@@ -159,6 +159,54 @@ footer {
   font-size: 18px;
   line-height: 1.6;
 }
+/* Make container flexible */
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Make images and videos responsive */
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Mobile styles for screens 768px wide or less */
+@media (max-width: 768px) {
+  /* Container full width with padding */
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+  
+  /* Stack nav/menu items vertically (if using flexbox) */
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Adjust font size for readability */
+  body {
+    font-size: 16px;
+  }
+  
+  /* Buttons and links easier to tap */
+  button, a {
+    padding: 12px 20px;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
 
 
 
