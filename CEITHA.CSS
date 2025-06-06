@@ -1,4 +1,4 @@
-* ========== BASE ========== */
+/* ========== BASE ========== */
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
@@ -27,7 +27,7 @@ header {
 }
 
 .logo img {
-  height: 80px;
+  height: 70px;
 }
 
 /* ========== NAVIGATION ========== */
@@ -139,29 +139,6 @@ footer {
   font-size: 14px;
   border-top: 1px solid #195c5e;
 }
-/* ========== ABOUT US ========== */
-.about {
-  background-color: #051918;
-  padding: 80px 40px;
-  text-align: center;
-}
-
-.about h2 {
-  font-size: 36px;
-  margin-bottom: 20px;
-  color: #40aaf4;
-}
-
-.about p {
-  max-width: 800px;
-  margin: 0 auto;
-  color: #f3f4f6;
-  font-size: 18px;
-  line-height: 1.6;
-}
-
-
-
 
 
 
